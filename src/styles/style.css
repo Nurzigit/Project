@@ -1,6 +1,7 @@
 /* Import Files */
 @import url(./fonts.css);
 
+
 /* Css */
 * {
     margin: 0;
@@ -8,6 +9,7 @@
     box-sizing: border-box;
     list-style: none;
 }
+
 
 /* Header */
 .wrapper {
@@ -43,10 +45,18 @@
     color: #FFF;
     text-decoration: none;
 }
+
+.link:hover {
+    transition: color 0.7s;
+    color: #ffffff3d;
+    text-decoration: none;
+}
+
+
 /* HERO */
 
 .hero {
-    margin-top: 319px;
+    margin-top: 240px;
 }
 
 .hero__header {
@@ -140,7 +150,7 @@
     background: #FFF;
     border: 1px solid #FFF;
     box-shadow: 0px 2px 20px 0px rgba(21, 24, 36, 0.16);
-    margin-top: 153px;
+    margin-top: 220px;
     padding: 99px 93px;
 }
 
@@ -216,6 +226,10 @@
     font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 150% */
+}
+.card__button-link:hover {
+    color: #102746;
+    transition: color 0.7s;
 }
 .card__button-link > img{
     margin-left: 15px;
