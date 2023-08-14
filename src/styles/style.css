@@ -46,7 +46,7 @@
 /* HERO */
 
 .hero {
-    margin-top: 406px;
+    margin-top: 319px;
 }
 
 .hero__header {
@@ -73,8 +73,8 @@
 /* HERO SERACH */
 .hero__support__search {
     position: relative;
-    top: 52px;
-    width: 850px;
+    top: 59px;
+    width: 950px;
     display: flex;
     justify-content: space-between;
 }
@@ -129,4 +129,94 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+/* CARD */
+
+.wrapper__card {
+    width: 1262px;
+    height: 655px;
+    margin: 0 auto;
+    background: #FFF;
+    border: 1px solid #FFF;
+    box-shadow: 0px 2px 20px 0px rgba(21, 24, 36, 0.16);
+    margin-top: 153px;
+    padding: 99px 93px;
+}
+
+.wrapper__card-header > span {
+    color: #102746;
+    font-family: Lato;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.wrapper__inner-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+.wrapper__card-first {
+    width: 317px;
+    height: 288px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wrapper__card-second {
+    width: 317px;
+    height: 288px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.wrapper__card-third {
+    width: 317px;
+    height: 288px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card__body {
+    height: 190px;
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card__body-title {
+    color: #000;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 133.333% */
+}
+
+.card__body-support {
+    width: 307px;
+    color: #000;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+.card__button-link {
+    text-decoration: none;
+    color: #006DFE;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.card__button-link > img{
+    margin-left: 15px;
 }
